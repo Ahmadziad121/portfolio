@@ -173,3 +173,114 @@ padding-top: 30px;}
           .box1 button:hover {
             border-right: 2px solid black;
           }
+          .contact-container {
+           
+            text-align: center;
+            height: 600px;
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: #f2f2f2;
+            margin: auto;
+            padding-top: 20px;
+          }
+          .contact-container-left{
+            
+            width: 50%;
+          }
+          input[type=text],input[type=email], select, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #4a0000;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 5px;
+        
+           
+          }
+          .contact-container-right{
+            
+            width: 50%;
+          }
+          
+          input[type=submit] {
+            background-color: #660000;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #000000;
+          }
+          footer {
+            position: relative;
+            
+            bottom: 0;
+            
+            left: 0;
+            
+            right: 0;
+            
+            background: #111;
+            
+            height: auto;
+            
+            width: 100vw;
+            
+            color: #fff;
+            }
+            
+            .footer-content {
+            display: flex;
+            
+            align-items: center;
+            
+            justify-content: center;
+            
+            flex-direction: column;
+            
+            text-align: center;
+            }
+            
+            .footer-content h3 {
+            font-size: 2.1rem;
+            
+            font-weight: 500;
+            
+            text-transform: capitalize;
+            
+            line-height: 3rem;
+            }
+            
+            .socials {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem 0 3rem 0;
+            }
+            
+            .socials li {
+            margin: 0 10px;
+            }
+            
+            .socials a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px;
+            }
+            
+            .socials a i {
+            font-size: 1.1rem;
+            width: 20px;
+            transition: color 0.4s ease;
+            }
+            
+            .socials a:hover i {
+            color:#d277b6;
+            }
+          
